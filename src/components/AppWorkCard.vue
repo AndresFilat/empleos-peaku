@@ -84,6 +84,9 @@
                                 <div v-if="skill.toLowerCase() === 'node' || skill.toLowerCase() === 'nodejs'" class="d-inline">
                                     <img src="@/assets/icons8-node.png" width="20">
                                 </div>
+                                <div v-if="skill.toLowerCase() === 'django'" class="d-inline">
+                                    <img src="@/assets/icons8-django.png" width="20">
+                                </div>
 
                                 {{ skill }}
                             </b-button>
